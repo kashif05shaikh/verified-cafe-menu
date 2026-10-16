@@ -1,0 +1,26 @@
+{
+  "name": "À Votre Santé Café",
+  "address": "Shop G-5, G-6, Nahar Optionz Shopping Plaza, Ward L, Opposite D Mart, Chandivali, Mumbai, Maharashtra 400072, India",
+  "phone": "+917400221263",
+  "coordinates": { "latitude": 19.1105311, "longitude": 72.8972865 },
+  "hoursSource": "https://exa.ai/library/place/2f5w584n6ww",
+  "zomatoUrl": "https://www.zomato.com/mumbai/a-votre-sante-cafe-chandivali",
+  "zomatoMenuUrl": "https://www.zomato.com/mumbai/a-votre-sante-cafe-chandivali/order",
+  "photosUrl": "https://www.zomato.com/mumbai/a-votre-sante-cafe-chandivali/photos",
+  "mapsUrl": "https://www.google.co.in/maps/place/A+Votre+Sant%C3%A9+Cafe/@19.1104881,72.8973347,19.98z/data=!4m15!1m8!3m7!1s0x3be7c8758b5f4acf:0x49f49a281279374f!2sNahar+Amrit+Shakti,+Chandivali,+Powai,+Mumbai,+Maharashtra+400072!3b1!8m2!3d19.1076133!4d72.8992184!16s%2Fg%2F1hjg_h5p7!3m5!1s0x3be7c99a72df04fb:0x649ae5e334bd17fc!8m2!3d19.1105311!4d72.8972865!16s%2Fg%2F11wvfgx475",
+  "hours": [
+    { "day": "Monday", "open": "08:30", "close": "01:00" },
+    { "day": "Tuesday", "open": "08:30", "close": "01:00" },
+    { "day": "Wednesday", "open": "08:30", "close": "01:00" },
+    { "day": "Thursday", "open": "08:30", "close": "01:00" },
+    { "day": "Friday", "open": "08:30", "close": "01:00" },
+    { "day": "Saturday", "open": "08:00", "close": "01:00" },
+    { "day": "Sunday", "open": "08:00", "close": "01:00" }
+  ],
+  "sourceNotes": [
+    "Address, telephone and online menu are listed on Zomato.",
+    "Hours are reported by a third-party place listing and may differ from the café's current schedule.",
+    "Google Maps rating and review count could not be independently verified from the listing itself.",
+    "No official website or Instagram profile was verified."
+  ]
+}
