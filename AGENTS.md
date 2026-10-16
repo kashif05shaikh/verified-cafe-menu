@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep shared café chrome in a reusable page wrapper and keep source-backed venue and menu content in data modules, so all pages stay consistent and content remains auditable.
