@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type FormEvent } from "react";
+import { useEffect, useMemo, useState, type FormEvent, type ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Clock3, Image, MapPin, Search, Star, Utensils, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -11,7 +11,13 @@ function CafeImage({ photo, className = "", priority = false }: { photo: (typeof
   return <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} className={`cafe-image ${className}`} />;
 }
 
-function SectionLabel({ children }: { children: React.ReactNode }) {
+function photoById(id: string) {
+  const photo = photos.find((entry) => entry.id === id);
+  if (!photo) throw new Error(`Missing café photo: ${id}`);
+  return photo;
+}
+
+function SectionLabel({ children }: { children: ReactNode }) {
   return <p className="cafe-eyebrow">{children}</p>;
 }
 
@@ -20,9 +26,9 @@ function SmallArrow() {
 }
 
 export function HomePage() {
-  const heroPhoto = photos[0];
-  const counterPhoto = photos[1];
-  const drinkPhoto = photos[3];
+  const heroPhoto = photoById("cafe-breakfast");
+  const counterPhoto = photoById("cafe-counter");
+  const drinkPhoto = photoById("cafe-drink");
   const featureCategories = ["avs-special-coffee", "pizza-pasta", "soups-salads"];
   const featured = featureCategories.flatMap((id) => categories.find((category) => category.id === id)?.items.slice(0, 2) ?? []);
   const cafeSchema = {
@@ -92,7 +98,8 @@ export function MenuPage() {
   useEffect(() => {
     const update = () => {
       const visible = [...document.querySelectorAll<HTMLElement>("[data-menu-category]")].find((node) => node.getBoundingClientRect().top > 0 && node.getBoundingClientRect().top < window.innerHeight * .52);
-      if (visible?.dataset.menuCategory) setActiveCategory(visible.dataset.menuCategory);
+      const categoryId = visible?.dataset["menuCategory"];
+      if (categoryId) setActiveCategory(categoryId);
     };
     window.addEventListener("scroll", update, { passive: true });
     update();
@@ -140,6 +147,7 @@ export function GalleryPage() {
     return () => window.removeEventListener("keydown", onKey);
   }, [selected, visiblePhotos.length]);
   const currentPhoto = selected === null ? undefined : visiblePhotos[selected];
+  const currentIndex = currentPhoto ? visiblePhotos.indexOf(currentPhoto) : -1;
   return <CafePage>
     <PageIntro eyebrow="Four photos from the public listing" title="A glimpse inside." description="A small collection of photographs attributed to the café’s Zomato listing. The full Google Maps photo collection wasn’t available to verify." />
     <section className="cafe-container pb-16">
@@ -152,14 +160,15 @@ export function GalleryPage() {
     {currentPhoto && <div className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/95 p-4" role="dialog" aria-modal="true" aria-label="Photo viewer" onClick={() => setSelected(null)}>
       <Button variant="ghost" size="icon" className="absolute right-4 top-4 text-background" aria-label="Close photo viewer" onClick={() => setSelected(null)}><X /></Button>
       <Button variant="ghost" size="icon" className="absolute left-2 top-1/2 text-background sm:left-8" aria-label="Previous photo" onClick={(event) => { event.stopPropagation(); setSelected((selectedIndex) => selectedIndex === null ? null : (selectedIndex - 1 + visiblePhotos.length) % visiblePhotos.length); }}><ArrowLeft /></Button>
-      <figure className="max-h-[88vh] max-w-5xl" onClick={(event) => event.stopPropagation()}><img src={currentPhoto.src} alt={currentPhoto.alt} className="max-h-[78vh] w-auto max-w-full object-contain" /><figcaption className="mt-3 text-center text-sm text-background">{currentPhoto.caption} · {selected! + 1} / {visiblePhotos.length}</figcaption></figure>
+      <figure className="max-h-[88vh] max-w-5xl" onClick={(event) => event.stopPropagation()}><img src={currentPhoto.src} alt={currentPhoto.alt} className="max-h-[78vh] w-auto max-w-full object-contain" /><figcaption className="mt-3 text-center text-sm text-background">{currentPhoto.caption} · {currentIndex + 1} / {visiblePhotos.length}</figcaption></figure>
       <Button variant="ghost" size="icon" className="absolute right-2 top-1/2 text-background sm:right-8" aria-label="Next photo" onClick={(event) => { event.stopPropagation(); setSelected((selectedIndex) => selectedIndex === null ? null : (selectedIndex + 1) % visiblePhotos.length); }}><ArrowRight /></Button>
     </div>}
   </CafePage>;
 }
 
 export function AboutPage() {
-  const [hero, counter] = photos;
+  const hero = photoById("cafe-breakfast");
+  const counter = photoById("cafe-counter");
   const amenities = ["Indoor seating", "Outdoor seating", "Kid friendly", "Work friendly", "Books", "Artistic"];
   return <CafePage>
     <PageIntro eyebrow="About the café" title="A table in Chandivali." description="À Votre Santé Café is listed at Nahar Optionz Shopping Plaza, opposite D Mart. This page sticks to public listing details; no café history was verified." />

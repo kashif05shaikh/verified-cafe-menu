@@ -48,8 +48,10 @@ export function getCafeOpenStatus(now: Date): boolean {
   const minute = Number(part("minute"));
   const today = hours.find((entry) => entry.day === weekday);
   if (!today) return false;
-  const [openingHour, openingMinute] = today.open.split(":").map(Number);
-  const [closingHour, closingMinute] = today.close.split(":").map(Number);
+  const openingHour = Number(today.open.slice(0, 2));
+  const openingMinute = Number(today.open.slice(3, 5));
+  const closingHour = Number(today.close.slice(0, 2));
+  const closingMinute = Number(today.close.slice(3, 5));
   const currentTime = hour * 60 + minute;
   const openingTime = openingHour * 60 + openingMinute;
   const closingTime = closingHour * 60 + closingMinute;
