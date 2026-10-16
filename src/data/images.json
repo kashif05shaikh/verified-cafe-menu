@@ -1,0 +1,41 @@
+{
+  "source": "Zomato public listing photos",
+  "images": [
+    {
+      "id": "cafe-breakfast",
+      "src": "cafe-breakfast.webp.asset.json",
+      "category": "Food",
+      "alt": "Coffee, croissants and a plated sandwich on a café table",
+      "caption": "Coffee, croissants and a sandwich",
+      "width": 771,
+      "height": 416
+    },
+    {
+      "id": "cafe-counter",
+      "src": "cafe-counter.webp.asset.json",
+      "category": "Interior",
+      "alt": "Café counter and espresso machine beside an interior staircase",
+      "caption": "The espresso counter and staircase",
+      "width": 300,
+      "height": 273
+    },
+    {
+      "id": "cafe-detail",
+      "src": "cafe-detail.webp.asset.json",
+      "category": "Interior",
+      "alt": "Decorative plates displayed on a striped café wall",
+      "caption": "Decorative plates on the wall",
+      "width": 300,
+      "height": 273
+    },
+    {
+      "id": "cafe-drink",
+      "src": "cafe-drink.webp.asset.json",
+      "category": "Drinks",
+      "alt": "Iced café drink on a table beside a croissant",
+      "caption": "An iced drink and croissant",
+      "width": 300,
+      "height": 273
+    }
+  ]
+}

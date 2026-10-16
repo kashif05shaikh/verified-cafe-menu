@@ -1,0 +1,2024 @@
+{
+  "source": "Zomato online order listing, publicly accessible on 16 Oct 2026",
+  "currency": "INR",
+  "categories": [
+    {
+      "id": "rice-noodles",
+      "name": "Rice / Noodles",
+      "note": "Online listing shows 13 items. Parsed 13 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Green Thai Curry With Plain Rice",
+          "desc": "Veg Thai Green Curry is a robust and flavourful curry from Thailand which ...",
+          "price": 449,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "3 Pepper Rice With Paneer Chilli",
+          "desc": "This paneer and rice dish is filled with a variety of peppers and ...",
+          "price": 449,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Asian Noodles",
+          "desc": "Savory, spicy, and super addicting Soy Sauce Pan-fried Noodles.",
+          "price": 289,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Burnt Garlic Fried Rice",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Burnt Garlic Noodles",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chilli Garlic Fried Rice",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chilli Garlic Noodles",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hakka Noodles",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Red Thai Curry With Plain Rice",
+          "desc": "This delicious Thai Curry recipe is made with homemade red curry paste.",
+          "price": 449,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Schezwan Fried Rice",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Schezwan Noodles",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Fried Rice",
+          "desc": "This classic Veg Fried Rice recipe is made with a hearty mix of ...",
+          "price": 289,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Fried Rice With Manchurian",
+          "desc": "",
+          "price": 429,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "soups-salads",
+      "name": "Soups & Salads",
+      "note": "Online listing shows 16 items. Parsed 16 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Basil Tomato Soup",
+          "desc": "This tomato soup has amazingly great flavors, nice texture & tastes superb with ...",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hot & Sour Soup",
+          "desc": "Hot and Sour soup is a Chinese soup that's savoury, spicy and tangy.",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Lemon Corriander Soup",
+          "desc": "Lemon coriander soup is a healthy vegetarian clear soup made with zesty lemon ...",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Manchow Soup",
+          "desc": "This vegan soup is spicy, with a thick broth, yummy fried noodles and ... Salads",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Waldrof (apple & Walnut) Salad",
+          "desc": "The original recipe consisted only of diced red-skinned apples, celery, and mayonnaise. Chopped ...",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Caesar Tofu Salad",
+          "desc": "This recipe pairs crispy tofu strips seasoned to perfection with creamy Caesar dressing ...",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Assorted Exotic Vegetable Salad",
+          "desc": "",
+          "price": 279,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Oat Meal Bowl With Fruits",
+          "desc": "The Ultimate Oatmeal Bowls. Packed with oats, diced apple, banana, pomegranate, milk, and ...",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Avocado Salad",
+          "desc": "Crisp cucumber, creamy avocado mayonnaise dressing, fresh herbs and a pinch of black ...",
+          "price": 349,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Caesar Paneer Salad",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mexican Salad",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mix Fruit Salad",
+          "desc": "This Fruit Salad has a delicious combination of apple, banana, orange, watermelon, pomegranate, ...",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mix Lettuce & Chickpea Salad",
+          "desc": "This Chickpea & salad is full of crunchy cucumber, chickpeas,cherry tomatoes,black olives and ...",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Pesto Pasta Salad",
+          "desc": "",
+          "price": 389,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Sauted Vegetable",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Watermelon & Feta Salad",
+          "desc": "This refreshing watermelon salad is made of sweet watermelon, lime juice, creamy salty ...",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "avs-special-coffee",
+      "name": "AVS Special Coffee",
+      "note": "Online listing shows 16 items. Parsed 16 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Vietnamese Cold Coffee",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Caramel Mocha",
+          "desc": "This delightfully sweet treat is a classic go-to choice for any specialty coffee ...",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Caramel Latte",
+          "desc": "Experience the perfect fusion of caramel and coffee with Caramel Latte.",
+          "price": 189,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Caramel Vanilla Latte Coffee",
+          "desc": "",
+          "price": 189,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mocha Mint Latte",
+          "desc": "",
+          "price": 239,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Espresso Tonic",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Caramel Vanilla Delight",
+          "desc": "Combines the rich, buttery sweetness of caramel with smooth, creamy vanilla for a ...",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hazelnut Mocha",
+          "desc": "100% Arabica Coffee blended with Hazelnut. Very Bold, Chocolaty & Nutty!",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hazzelnut Cappuccino",
+          "desc": "",
+          "price": 189,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hazzlenut Latte",
+          "desc": "Indulge in a rich Hazelnut Latte, crafted with aromatic espresso and Hazelnut. A ...",
+          "price": 189,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hot Chocolate",
+          "desc": "Steamed milk with chocolate-flavored syrups.",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hot Chocolate Cookie Twist",
+          "desc": "A combination of cocoa powder and chocolate cookies make this hot chocolate extra ...",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Irish Coffee",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Nutella Latte Coffee",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Spanish Latte Coffee",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tiramisu Coffee",
+          "desc": "A perfect blend of Hot Coffee and gooey Tiramisu cake. With every sip, ...",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "pizza-pasta",
+      "name": "Pizza & Pasta",
+      "note": "Online listing shows 17 items. Parsed 17 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Cheese & Corn Pizza",
+          "desc": "",
+          "price": 279,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Margherita Pizza",
+          "desc": "Thin Crust Pizza\\] ...",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Extravaganzza Pizza",
+          "desc": "",
+          "price": 349,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Barbeque Paneer Pizza",
+          "desc": "",
+          "price": 349,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Farmhouse Pizza",
+          "desc": "Thin Crust Pizza\\] ...",
+          "price": 319,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Grilled Exotic Pizza",
+          "desc": "Thin Crust Pizza\\] ...",
+          "price": 319,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mexican Pizza",
+          "desc": "Thin Crust Pizza\\] ...",
+          "price": 339,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mushroom Mania Pizza",
+          "desc": "Thin Crust Pizza\\] ...",
+          "price": 349,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Peri Peri Paneer Pizza",
+          "desc": "",
+          "price": 349,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tandoori Paneer Pizza",
+          "desc": "Pasta",
+          "price": 289,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Pesto Pasta",
+          "desc": "",
+          "price": 319,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Aglio E Olio Pasta",
+          "desc": "",
+          "price": 329,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Pink Sauce Pasta",
+          "desc": "",
+          "price": 379,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mac & Cheese Pasta",
+          "desc": "",
+          "price": 399,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Red Sauce Pasta",
+          "desc": "",
+          "price": 269,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cheese Sauce Pasta",
+          "desc": "",
+          "price": 399,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "White Sauce Pasta",
+          "desc": "",
+          "price": 379,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "burgers-sandwiches",
+      "name": "Burgers & Sandwiches",
+      "note": "Online listing shows 18 items. Parsed 18 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Sizzling Tofu Burger",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Aloo Tikki Burger",
+          "desc": "",
+          "price": 139,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Barbecue Paneer Burger",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Korean Cheese Bun",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Sizzling Paneer Burger",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Burger",
+          "desc": "Sandwiches",
+          "price": 139,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Bombay Veg Sandwich",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Grilled Sandwich",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Avocado Toast Sandwich",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "AVS Special Cottage Cheese Sandwich",
+          "desc": "",
+          "price": 269,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Barbecue Paneer Sandwich",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cheese Chilli Sandwich",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cheese Grilled Sandwich",
+          "desc": "",
+          "price": 239,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Corn & Cheese Sandwich",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Spinach Corn Sandwich",
+          "desc": "",
+          "price": 239,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Spinach Mushroom Sandwich",
+          "desc": "",
+          "price": 239,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tandoori Paneer Sandwich",
+          "desc": "",
+          "price": 239,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Cheese Grilled Sandwich",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "note": "Online listing shows 17 items. Parsed 17 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Cheese Corn Balls",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hummus With Pita Bread",
+          "desc": "",
+          "price": 399,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cheesy Nachos",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chilli Paneer",
+          "desc": "",
+          "price": 319,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Crispy Lotus Honey Stem",
+          "desc": "",
+          "price": 349,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Korean Cheeese Bunn",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Loaded Nachos",
+          "desc": "",
+          "price": 399,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Onion Rings",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Paneer Momos",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Spring Roll",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Manchurian",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Momos",
+          "desc": "5 Pieces.",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Veg Nuggets",
+          "desc": "Fries",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Peri Peri French Fries",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Loaded French Fries",
+          "desc": "",
+          "price": 239,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Peri Peri Loaded French Fries",
+          "desc": "",
+          "price": 250,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "French Fries",
+          "desc": "",
+          "price": 189,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "wraps",
+      "name": "Wraps",
+      "note": "Online listing shows 7 items. Parsed 7 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Veg Exotic Wrap",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Barbecue Paneer Wrap",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Breakfast Burrito Wrap",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Falafal Wrap (avs Special)",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mexican Wrap",
+          "desc": "",
+          "price": 269,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Schezwan Paneer Wrap",
+          "desc": "",
+          "price": 239,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tandoori Paneer Wrap",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "croissants",
+      "name": "Croissants",
+      "note": "Online listing shows 11 items. Parsed 11 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Fresh Veg Grilled Croissant(avs Special)",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Avocado Croissant",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Bbq Paneer Croissant",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Biscoff Croissant",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Butter Croissant",
+          "desc": "",
+          "price": 169,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Croissant",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Corn & Cheese Croissant",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kitkat Croissant",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Nutella Croissant",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Spinach Mushroom Croissant",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tandoori Croissant",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "Dessert",
+      "note": "Online listing shows 19 items. Parsed 19 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Banana Pancake",
+          "desc": "",
+          "price": 149,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Pancake",
+          "desc": "",
+          "price": 169,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kitkat Pancake",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Lotus Biscoff Pancake",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Nutella Pancake",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Strawberry Pancake",
+          "desc": "Waffles",
+          "price": 149,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Biscoff Waffle",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Waffle",
+          "desc": "",
+          "price": 129,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kitkat+lotus Biscoff Waffle",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kitkat+nutella Waffle",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kitkat Waffles",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Nutella+lotus Biscoff Waffle",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Nutella Waffle",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Triple Chocolate Waffle",
+          "desc": "Gelatos",
+          "price": 129,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Belgian Chocolate Gelato",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Blueberry Cheesecake Gelato",
+          "desc": "",
+          "price": 129,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Lotus Bicoff Gelato",
+          "desc": "",
+          "price": 149,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mango Gelato",
+          "desc": "",
+          "price": 139,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tiramisu Gelato",
+          "desc": "",
+          "price": 119,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "drinks-beverages",
+      "name": "Drinks (beverages)",
+      "note": "Online listing shows 89 items. Parsed 89 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Borage Valerian Lemon Tea",
+          "desc": "Serves 1.",
+          "price": 149,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Ginger Tea",
+          "desc": "Serves 1.",
+          "price": 89,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hibiscus Rose Herbal Tea",
+          "desc": "",
+          "price": 149,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kazakstan",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Masala Tea",
+          "desc": "Serves 1. Milkshakes",
+          "price": 89,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Avocado Milkshake",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Banana Avocado Milk Shake",
+          "desc": "",
+          "price": 269,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Banana Milkshake",
+          "desc": "",
+          "price": 119,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Banana Peanut Butter Milkshake",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Blueberry Milkshake",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Avocado Milk Shake",
+          "desc": "",
+          "price": 269,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Fudge Milk Shake",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Milkshake",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Peanut Butter Milk Shakes",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kit Kat Milkshake",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Lotus Biscoff Milkshake",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mixed Berried Milkshake",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Nutella Milkshake",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Oats Dates And Banana Milkshakes",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Oreo Milkshake",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Peanut Butter Milkshake",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Strawberry Milkshake",
+          "desc": "",
+          "price": 189,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Strawberry Vanilla Milkshake",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Vanila Milkshake",
+          "desc": "Iced Macha Boba Teas",
+          "price": 159,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kala Jamun Peach Ice Tea",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kala Khatta Boba Tea",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Lemon Iced Boba Teas",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Lemon Iced Tea",
+          "desc": "",
+          "price": 169,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mango Matcha Tea",
+          "desc": "",
+          "price": 279,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Matcha Boba Tea",
+          "desc": "",
+          "price": 259,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Matcha Tea",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mint Matcha",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Passion Fruit Boba Tea",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Passion Fruit Peach Iced Tea",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Peach Iced Boba Tea",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Peach Iced Tea",
+          "desc": "",
+          "price": 169,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Strawberry Boba Tea",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Vanilla Matcha",
+          "desc": "Classic Coffee",
+          "price": 259,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Latte",
+          "desc": "",
+          "price": 189,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Americano",
+          "desc": "Black Coffee.",
+          "price": 139,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cappuccino",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cortado Coffee",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Doppio",
+          "desc": "",
+          "price": 159,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Espresso",
+          "desc": "",
+          "price": 139,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Flat White",
+          "desc": "",
+          "price": 189,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Maccchiato Coffee",
+          "desc": "",
+          "price": 169,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mocha",
+          "desc": "Fruit Juices",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Lime Juice",
+          "desc": "",
+          "price": 99,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Lime Soda",
+          "desc": "",
+          "price": 99,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Orange Juice",
+          "desc": "",
+          "price": 159,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Pineapple Juice",
+          "desc": "",
+          "price": 139,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Watermelon Juice",
+          "desc": "Cold Coffee & Frappes",
+          "price": 139,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cold Coffee With Ice Cream",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Caramel Cold Coffee",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Caramel Frappe",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Choco Hazelnut Frappe",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cold Coffee",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cold Coffee Extra Strong",
+          "desc": "",
+          "price": 239,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "French Vanilla Cold Coffee",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "French Vanilla Frappe",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Hazelnut Cold Coffee",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Irish Cold Coffee",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mocha Choco Chips Frappe",
+          "desc": "",
+          "price": 279,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tiramisu Cold Coffee",
+          "desc": "",
+          "price": 269,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tiramisu Frappe",
+          "desc": "Coolers & Mocktails",
+          "price": 279,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Aam Panna Mojito",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Blue Lagoon",
+          "desc": "",
+          "price": 169,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Brazilian Lemonade",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Diet Coke",
+          "desc": "",
+          "price": 119,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Green Apple Mojito",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Kala Khatta Mojito",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mint Mocha Martini",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Passion Fruit Mojito",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Pina Colada",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Spiced Jamun",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Spicy Guava",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tropical Berries Mojito",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Virgin Mojito",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Water Bottle",
+          "desc": "",
+          "price": 20,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Watermelon Mojito",
+          "desc": "Smoothies",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Avocado Smoothie",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Banana Avocado Smoothie",
+          "desc": "",
+          "price": 279,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Banana Peanut Butter Smoothie",
+          "desc": "",
+          "price": 229,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Blueberry Smoothie",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Avocado Smoothie",
+          "desc": "",
+          "price": 279,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chocolate Peanut Butter Smoothie",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mixed Berries Smoothie",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Oats, Dates & Banana Smoothie",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Strawberry Smoothie",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "garlic-bread-bruschetta",
+      "name": "Garlic Bread And Bruschetta",
+      "note": "Online listing shows 8 items. Parsed 8 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Plain Garlic Bread",
+          "desc": "",
+          "price": 199,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Italian Bruschetta",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Cheesy Garlic Bread",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Avocado Bruschetta",
+          "desc": "",
+          "price": 399,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Black Olives & Cherry Tomato Bruschetta",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Green Chilli Cheesy Garlic Bread",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Green Chilly Garlic Bread",
+          "desc": "",
+          "price": 179,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Jalepeno Bruschetta",
+          "desc": "",
+          "price": 299,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "tacos-quesadillas",
+      "name": "Tacos And Quesadillas",
+      "note": "Online listing shows 6 items. Parsed 6 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Mexican Quesadillas",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Corn & Cheese Queseadillas",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Corn & Cheese Tacos",
+          "desc": "",
+          "price": 219,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Mexican Tacos",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Paneer Quesadillas",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Paneer Tacos",
+          "desc": "",
+          "price": 249,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "note": "Online listing shows 1 items. Parsed 1 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Chocolate Brownie",
+          "desc": "",
+          "price": 149,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "meal-bowls",
+      "name": "Meal Bowls",
+      "note": "Online listing shows 2 items. Parsed 2 priced or described entries; listing may be incomplete.",
+      "items": [
+        {
+          "name": "Mexican Meal Bowl",
+          "desc": "This bowl contains beans, flavored rice, spicy marinated paneer, veggies, guacamole and a ...",
+          "price": 389,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Chitpotle Burrito Bowl",
+          "desc": "Lic. No. 21525007000075 ###### Related to A Votre Sante Cafe , Chandivali ###### Restaurants around Chandivali ###### Frequent searches leading to this page Opening Hours Mon-Fri:12midnight – 1am, 9am – 12midnight Sat-Sun:12midnight – 1am, 8:30am – 12midnight Reviews are better in app Select restaurants based on user generated reviews, ratings and photos Continue in app Continue in browser ## Oops! Something went wrong, Please try again Cancel _down-triangle_Your Order (0) Subtotal: ₹0Continue ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart _cross_ ## Log in _cross_ +91 _chevron-down_ Send OTP * * * or _mail-fill_ Continue with Email Sign in with GoogleSign in with Google. Opens in new tab Sign In - Google Accounts Sign in with GoogleSign in with Google. Opens in new tab * * * New to Zomato? Create account",
+          "price": 389,
+          "veg": true,
+          "tags": [],
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
