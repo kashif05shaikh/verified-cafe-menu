@@ -5,11 +5,11 @@
     {
       "id": "rice-noodles",
       "name": "Rice / Noodles",
-      "note": "Online listing shows 13 items. Parsed 13 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 13 items. Transcribed 13 items; listing may be incomplete.",
       "items": [
         {
           "name": "Green Thai Curry With Plain Rice",
-          "desc": "Veg Thai Green Curry is a robust and flavourful curry from Thailand which ...",
+          "desc": "",
           "price": 449,
           "veg": true,
           "tags": [],
@@ -17,7 +17,7 @@
         },
         {
           "name": "3 Pepper Rice With Paneer Chilli",
-          "desc": "This paneer and rice dish is filled with a variety of peppers and ...",
+          "desc": "",
           "price": 449,
           "veg": true,
           "tags": [],
@@ -97,7 +97,7 @@
         },
         {
           "name": "Veg Fried Rice",
-          "desc": "This classic Veg Fried Rice recipe is made with a hearty mix of ...",
+          "desc": "",
           "price": 289,
           "veg": true,
           "tags": [],
@@ -116,11 +116,11 @@
     {
       "id": "soups-salads",
       "name": "Soups & Salads",
-      "note": "Online listing shows 16 items. Parsed 16 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 16 items. Transcribed 16 items; listing may be incomplete.",
       "items": [
         {
           "name": "Basil Tomato Soup",
-          "desc": "This tomato soup has amazingly great flavors, nice texture & tastes superb with ...",
+          "desc": "",
           "price": 179,
           "veg": true,
           "tags": [],
@@ -136,7 +136,7 @@
         },
         {
           "name": "Lemon Corriander Soup",
-          "desc": "Lemon coriander soup is a healthy vegetarian clear soup made with zesty lemon ...",
+          "desc": "",
           "price": 219,
           "veg": true,
           "tags": [],
@@ -144,7 +144,7 @@
         },
         {
           "name": "Veg Manchow Soup",
-          "desc": "This vegan soup is spicy, with a thick broth, yummy fried noodles and ... Salads",
+          "desc": "",
           "price": 229,
           "veg": true,
           "tags": [],
@@ -152,7 +152,7 @@
         },
         {
           "name": "Waldrof (apple & Walnut) Salad",
-          "desc": "The original recipe consisted only of diced red-skinned apples, celery, and mayonnaise. Chopped ...",
+          "desc": "",
           "price": 299,
           "veg": true,
           "tags": [],
@@ -160,7 +160,7 @@
         },
         {
           "name": "Caesar Tofu Salad",
-          "desc": "This recipe pairs crispy tofu strips seasoned to perfection with creamy Caesar dressing ...",
+          "desc": "",
           "price": 299,
           "veg": true,
           "tags": [],
@@ -175,8 +175,8 @@
           "image": ""
         },
         {
-          "name": "Oat Meal Bowl With Fruits",
-          "desc": "The Ultimate Oatmeal Bowls. Packed with oats, diced apple, banana, pomegranate, milk, and ...",
+          "name": "Oatmeal Bowl with Fruits",
+          "desc": "",
           "price": 249,
           "veg": true,
           "tags": [],
@@ -184,7 +184,7 @@
         },
         {
           "name": "Avocado Salad",
-          "desc": "Crisp cucumber, creamy avocado mayonnaise dressing, fresh herbs and a pinch of black ...",
+          "desc": "",
           "price": 349,
           "veg": true,
           "tags": [],
@@ -208,7 +208,7 @@
         },
         {
           "name": "Mix Fruit Salad",
-          "desc": "This Fruit Salad has a delicious combination of apple, banana, orange, watermelon, pomegranate, ...",
+          "desc": "",
           "price": 229,
           "veg": true,
           "tags": [],
@@ -216,7 +216,7 @@
         },
         {
           "name": "Mix Lettuce & Chickpea Salad",
-          "desc": "This Chickpea & salad is full of crunchy cucumber, chickpeas,cherry tomatoes,black olives and ...",
+          "desc": "",
           "price": 299,
           "veg": true,
           "tags": [],
@@ -240,7 +240,7 @@
         },
         {
           "name": "Watermelon & Feta Salad",
-          "desc": "This refreshing watermelon salad is made of sweet watermelon, lime juice, creamy salty ...",
+          "desc": "",
           "price": 199,
           "veg": true,
           "tags": [],
@@ -251,7 +251,7 @@
     {
       "id": "avs-special-coffee",
       "name": "AVS Special Coffee",
-      "note": "Online listing shows 16 items. Parsed 16 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 16 items. Transcribed 16 items; listing may be incomplete.",
       "items": [
         {
           "name": "Vietnamese Cold Coffee",
@@ -263,7 +263,7 @@
         },
         {
           "name": "Caramel Mocha",
-          "desc": "This delightfully sweet treat is a classic go-to choice for any specialty coffee ...",
+          "desc": "",
           "price": 219,
           "veg": true,
           "tags": [],
@@ -303,7 +303,7 @@
         },
         {
           "name": "Caramel Vanilla Delight",
-          "desc": "Combines the rich, buttery sweetness of caramel with smooth, creamy vanilla for a ...",
+          "desc": "",
           "price": 199,
           "veg": true,
           "tags": [],
@@ -327,7 +327,7 @@
         },
         {
           "name": "Hazzlenut Latte",
-          "desc": "Indulge in a rich Hazelnut Latte, crafted with aromatic espresso and Hazelnut. A ...",
+          "desc": "",
           "price": 189,
           "veg": true,
           "tags": [],
@@ -343,7 +343,7 @@
         },
         {
           "name": "Hot Chocolate Cookie Twist",
-          "desc": "A combination of cocoa powder and chocolate cookies make this hot chocolate extra ...",
+          "desc": "",
           "price": 229,
           "veg": true,
           "tags": [],
@@ -375,7 +375,7 @@
         },
         {
           "name": "Tiramisu Coffee",
-          "desc": "A perfect blend of Hot Coffee and gooey Tiramisu cake. With every sip, ...",
+          "desc": "",
           "price": 229,
           "veg": true,
           "tags": [],
@@ -386,7 +386,7 @@
     {
       "id": "pizza-pasta",
       "name": "Pizza & Pasta",
-      "note": "Online listing shows 17 items. Parsed 17 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 17 items. Transcribed 17 items; listing may be incomplete.",
       "items": [
         {
           "name": "Cheese & Corn Pizza",
@@ -398,7 +398,7 @@
         },
         {
           "name": "Margherita Pizza",
-          "desc": "Thin Crust Pizza\\] ...",
+          "desc": "",
           "price": 299,
           "veg": true,
           "tags": [],
@@ -422,7 +422,7 @@
         },
         {
           "name": "Farmhouse Pizza",
-          "desc": "Thin Crust Pizza\\] ...",
+          "desc": "",
           "price": 319,
           "veg": true,
           "tags": [],
@@ -430,7 +430,7 @@
         },
         {
           "name": "Grilled Exotic Pizza",
-          "desc": "Thin Crust Pizza\\] ...",
+          "desc": "",
           "price": 319,
           "veg": true,
           "tags": [],
@@ -438,7 +438,7 @@
         },
         {
           "name": "Mexican Pizza",
-          "desc": "Thin Crust Pizza\\] ...",
+          "desc": "",
           "price": 339,
           "veg": true,
           "tags": [],
@@ -446,7 +446,7 @@
         },
         {
           "name": "Mushroom Mania Pizza",
-          "desc": "Thin Crust Pizza\\] ...",
+          "desc": "",
           "price": 349,
           "veg": true,
           "tags": [],
@@ -462,7 +462,7 @@
         },
         {
           "name": "Tandoori Paneer Pizza",
-          "desc": "Pasta",
+          "desc": "",
           "price": 289,
           "veg": true,
           "tags": [],
@@ -529,7 +529,7 @@
     {
       "id": "burgers-sandwiches",
       "name": "Burgers & Sandwiches",
-      "note": "Online listing shows 18 items. Parsed 18 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 18 items. Transcribed 18 items; listing may be incomplete.",
       "items": [
         {
           "name": "Sizzling Tofu Burger",
@@ -680,7 +680,7 @@
     {
       "id": "snacks",
       "name": "Snacks",
-      "note": "Online listing shows 17 items. Parsed 17 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 17 items. Transcribed 17 items; listing may be incomplete.",
       "items": [
         {
           "name": "Cheese Corn Balls",
@@ -823,7 +823,7 @@
     {
       "id": "wraps",
       "name": "Wraps",
-      "note": "Online listing shows 7 items. Parsed 7 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 7 items. Transcribed 7 items; listing may be incomplete.",
       "items": [
         {
           "name": "Veg Exotic Wrap",
@@ -886,7 +886,7 @@
     {
       "id": "croissants",
       "name": "Croissants",
-      "note": "Online listing shows 11 items. Parsed 11 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 11 items. Transcribed 11 items; listing may be incomplete.",
       "items": [
         {
           "name": "Fresh Veg Grilled Croissant(avs Special)",
@@ -981,7 +981,7 @@
     {
       "id": "dessert",
       "name": "Dessert",
-      "note": "Online listing shows 19 items. Parsed 19 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 19 items. Transcribed 19 items; listing may be incomplete.",
       "items": [
         {
           "name": "Banana Pancake",
@@ -1140,7 +1140,7 @@
     {
       "id": "drinks-beverages",
       "name": "Drinks (beverages)",
-      "note": "Online listing shows 89 items. Parsed 89 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 89 items. Transcribed 89 items; listing may be incomplete.",
       "items": [
         {
           "name": "Borage Valerian Lemon Tea",
@@ -1859,7 +1859,7 @@
     {
       "id": "garlic-bread-bruschetta",
       "name": "Garlic Bread And Bruschetta",
-      "note": "Online listing shows 8 items. Parsed 8 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 8 items. Transcribed 8 items; listing may be incomplete.",
       "items": [
         {
           "name": "Plain Garlic Bread",
@@ -1930,7 +1930,7 @@
     {
       "id": "tacos-quesadillas",
       "name": "Tacos And Quesadillas",
-      "note": "Online listing shows 6 items. Parsed 6 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 6 items. Transcribed 6 items; listing may be incomplete.",
       "items": [
         {
           "name": "Mexican Quesadillas",
@@ -1985,7 +1985,7 @@
     {
       "id": "desserts",
       "name": "Desserts",
-      "note": "Online listing shows 1 items. Parsed 1 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 1 item. Transcribed 1 item; listing may be incomplete.",
       "items": [
         {
           "name": "Chocolate Brownie",
@@ -2000,19 +2000,19 @@
     {
       "id": "meal-bowls",
       "name": "Meal Bowls",
-      "note": "Online listing shows 2 items. Parsed 2 priced or described entries; listing may be incomplete.",
+      "note": "Online listing shows 2 items. Transcribed 2 items; listing may be incomplete.",
       "items": [
         {
           "name": "Mexican Meal Bowl",
-          "desc": "This bowl contains beans, flavored rice, spicy marinated paneer, veggies, guacamole and a ...",
+          "desc": "",
           "price": 389,
           "veg": true,
           "tags": [],
           "image": ""
         },
         {
-          "name": "Chitpotle Burrito Bowl",
-          "desc": "Lic. No. 21525007000075 ###### Related to A Votre Sante Cafe , Chandivali ###### Restaurants around Chandivali ###### Frequent searches leading to this page Opening Hours Mon-Fri:12midnight – 1am, 9am – 12midnight Sat-Sun:12midnight – 1am, 8:30am – 12midnight Reviews are better in app Select restaurants based on user generated reviews, ratings and photos Continue in app Continue in browser ## Oops! Something went wrong, Please try again Cancel _down-triangle_Your Order (0) Subtotal: ₹0Continue ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart ## Clear your cart? _cross_ Do you want to clear all items in your cart? Proceed with these itemsClear cart _cross_ ## Log in _cross_ +91 _chevron-down_ Send OTP * * * or _mail-fill_ Continue with Email Sign in with GoogleSign in with Google. Opens in new tab Sign In - Google Accounts Sign in with GoogleSign in with Google. Opens in new tab * * * New to Zomato? Create account",
+          "name": "Chipotle Burrito Bowl",
+          "desc": "",
           "price": 389,
           "veg": true,
           "tags": [],

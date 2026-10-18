@@ -25,6 +25,36 @@ export const cafe = site;
 export const categories = menuData.categories as MenuCategory[];
 export const allMenuItems = categories.flatMap((category) => category.items);
 
+const expectedMenuItemCount = 240;
+const scrapedContentPattern = /(?:\.{3,}|…|######|lic\.\s*no\.|related to a votre sante|your order|opening hours|frequent searches|restaurants around|oops!|_cross_|_down-triangle)/i;
+
+export function validateMenuData(menuCategories: readonly MenuCategory[]): string[] {
+  const errors: string[] = [];
+  const categoryIds = new Set<string>();
+  const itemKeys = new Set<string>();
+
+  for (const category of menuCategories) {
+    if (!category.id.trim() || !category.name.trim()) errors.push("Each menu section needs an id and name.");
+    if (categoryIds.has(category.id)) errors.push(`Duplicate menu section id: ${category.id}.`);
+    categoryIds.add(category.id);
+    for (const item of category.items) {
+      const key = `${category.id}:${item.name.trim().toLocaleLowerCase()}`;
+      if (!item.name.trim()) errors.push(`A menu item in ${category.name} has no name.`);
+      if (itemKeys.has(key)) errors.push(`Duplicate menu item: ${item.name}.`);
+      itemKeys.add(key);
+      if (item.price !== null && (!Number.isFinite(item.price) || item.price < 0)) errors.push(`Invalid price for ${item.name}.`);
+      if (scrapedContentPattern.test(item.desc)) errors.push(`Unclean scraped text in ${item.name}.`);
+    }
+  }
+
+  const itemCount = menuCategories.reduce((total, category) => total + category.items.length, 0);
+  if (itemCount !== expectedMenuItemCount) errors.push(`Expected ${expectedMenuItemCount} transcribed menu entries; found ${itemCount}.`);
+  return errors;
+}
+
+const menuDataErrors = validateMenuData(categories);
+if (menuDataErrors.length > 0) throw new Error(`Menu data validation failed: ${menuDataErrors.join(" ")}`);
+
 export const photos = [
   { id: "cafe-breakfast", src: breakfastPhoto.url, category: "Food", alt: "Coffee, croissants and a plated sandwich on a café table", caption: "Coffee, croissants and a sandwich", width: 771, height: 416 },
   { id: "cafe-counter", src: counterPhoto.url, category: "Interior", alt: "Café counter and espresso machine beside an interior staircase", caption: "The espresso counter and staircase", width: 300, height: 273 },

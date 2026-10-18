@@ -40,7 +40,7 @@ export function CafeNav() {
   const [mobileOpen, setMobileOpen] = useState(false);
   useEffect(() => setMobileOpen(false), [location.pathname]);
   return (
-    <header className="cafe-nav">
+    <header className="cafe-nav cafe-glass">
       <div className="cafe-container flex min-h-16 items-center justify-between gap-4">
         <Link to="/" className="cafe-link flex min-w-0 items-center gap-2 text-foreground no-underline" aria-label={`${cafe.name} home`}>
           <span className="cafe-serif text-2xl leading-none">ÀVS</span>
@@ -70,7 +70,7 @@ export function CafeNav() {
 export function CafeFooter() {
   return <footer className="cafe-footer mt-16">
     <div className="cafe-container grid gap-8 py-10 md:grid-cols-[1fr_auto] md:items-end">
-      <div><p className="cafe-eyebrow">Chandivali · Mumbai</p><p className="cafe-serif mt-2 text-3xl">À Votre Santé Café</p><p className="mt-2 max-w-lg text-sm text-muted-foreground">Coffee, food and a neighbourhood table, near D Mart in Chandivali.</p></div>
+      <div><p className="cafe-eyebrow">Chandivali · Mumbai</p><p className="cafe-serif mt-2 text-3xl">À Votre Santé Café</p><p className="mt-2 max-w-lg text-sm text-muted-foreground">Coffee, food and a neighbourhood table, near D Mart.</p></div>
       <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm"><Link className="cafe-link" to="/menu">Menu</Link><Link className="cafe-link" to="/gallery">Gallery</Link><Link className="cafe-link" to="/visit">Visit</Link><a className="cafe-link inline-flex items-center gap-1" href={cafe.zomatoUrl} target="_blank" rel="noreferrer">Zomato <ArrowUpRight aria-hidden="true" className="size-3" /></a></div>
       <p className="text-xs text-muted-foreground md:col-span-2">Details and menu prices are reproduced from public listings and may change.</p>
     </div>
