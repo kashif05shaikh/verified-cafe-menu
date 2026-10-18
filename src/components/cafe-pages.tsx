@@ -47,9 +47,9 @@ export function HomePage() {
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cafeSchema) }} />
     <section className="cafe-container grid gap-8 pb-16 pt-12 md:grid-cols-[.9fr_1.1fr] md:items-end md:pb-20 md:pt-16">
       <div className="cafe-reveal flex flex-col items-start">
-        <SectionLabel>Neighbourhood café · Chandivali, Mumbai</SectionLabel>
+        <SectionLabel>Neighbourhood café · Mumbai</SectionLabel>
         <h1 className="cafe-display mt-7 max-w-3xl">À Votre<br /><span className="italic">Santé</span> Café</h1>
-        <p className="mt-7 max-w-md text-base leading-7 text-muted-foreground">A café table for coffee, something good to eat, and a little time in Chandivali.</p>
+        <p className="mt-7 max-w-md text-base leading-7 text-muted-foreground">A café table for coffee, something good to eat, and a little time to linger.</p>
         <div className="mt-8 flex flex-wrap gap-3"><Button asChild><Link to="/menu">Explore the menu <SmallArrow /></Link></Button><Button asChild variant="outline"><Link to="/visit">Find us <MapPin aria-hidden="true" /></Link></Button></div>
         <div className="mt-12 flex items-center gap-3 border-t border-border pt-4 text-xs text-muted-foreground"><MapPin className="size-4" aria-hidden="true" /><span>Near D Mart · Chandivali</span><span aria-hidden="true">·</span><a className="cafe-link" href={cafe.mapsUrl} target="_blank" rel="noreferrer">Get directions</a></div>
       </div>
@@ -59,15 +59,15 @@ export function HomePage() {
       </figure>
     </section>
     <div className="overflow-hidden border-y border-border py-4" aria-label="Café menu highlights">
-      <div className="cafe-marquee flex w-max gap-8 whitespace-nowrap text-xs uppercase tracking-[.12em] text-muted-foreground">{Array.from({ length: 2 }).map((_, index) => <span key={index} className="flex gap-8">{["Coffee, slowly", "A table in Chandivali", "Vegetarian menu listing", "À Votre Santé"].map((text) => <span key={text}>{text}<span className="ml-8 text-primary" aria-hidden="true">✳</span></span>)}</span>)}</div>
+      <div className="cafe-marquee flex w-max gap-8 whitespace-nowrap text-xs uppercase tracking-[.12em] text-muted-foreground">{Array.from({ length: 2 }).map((_, index) => <span key={index} className="flex gap-8">{["Coffee, slowly", "A table for all seasons", "Vegetarian menu listing", "À Votre Santé"].map((text) => <span key={text}>{text}<span className="ml-8 text-primary" aria-hidden="true">✳</span></span>)}</span>)}</div>
     </div>
     <section className="cafe-container cafe-section grid gap-12 md:grid-cols-[.72fr_1fr] md:items-center">
       <div className="cafe-image-frame relative aspect-[4/5] max-w-md overflow-hidden md:justify-self-end"><CafeImage photo={counterPhoto} /><span className="absolute bottom-4 left-4 bg-background/90 px-3 py-2 text-xs">The espresso counter</span></div>
-      <div className="max-w-xl md:pl-8"><SectionLabel>A neighbourhood table</SectionLabel><h2 className="cafe-serif mt-5 text-5xl leading-[1.02] md:text-7xl">A little corner of Chandivali.</h2><p className="mt-6 text-base leading-7 text-muted-foreground">Find À Votre Santé Café at Nahar Optionz Shopping Plaza, opposite D Mart. Public listings describe a vegetarian menu with coffee, continental and Chinese dishes.</p><Button asChild variant="link" className="mt-5 h-auto p-0 text-foreground"><Link to="/about">A little more about the café <SmallArrow /></Link></Button></div>
+      <div className="max-w-xl md:pl-8"><SectionLabel>A neighbourhood table</SectionLabel><h2 className="cafe-serif mt-5 text-5xl leading-[1.02] md:text-7xl">A little corner to return to.</h2><p className="mt-6 text-base leading-7 text-muted-foreground">Find À Votre Santé Café at Nahar Optionz Shopping Plaza, opposite D Mart. Public listings describe a vegetarian menu with coffee, continental and Chinese dishes.</p><Button asChild variant="link" className="mt-5 h-auto p-0 text-foreground"><Link to="/about">A little more about the café <SmallArrow /></Link></Button></div>
     </section>
     <section className="bg-secondary/70 py-5">
       <div className="cafe-container flex items-center justify-between gap-8"><div><SectionLabel>From the online menu</SectionLabel><p className="mt-1 text-sm text-muted-foreground">A few listed favourites, with prices shown by Zomato.</p></div><Button asChild variant="link" className="shrink-0"><Link to="/menu">See all sections <SmallArrow /></Link></Button></div>
-      <div className="cafe-container mt-7 grid gap-0 sm:grid-cols-2 lg:grid-cols-3">{featured.map((item, index) => <article key={item.name} className="border-t border-border p-4 sm:p-5"><p className="cafe-eyebrow">{["Coffee", "From the kitchen", "Something fresh"][index % 3]}</p><h3 className="cafe-serif mt-3 text-2xl">{item.name}</h3><p className="mt-3 text-sm text-muted-foreground">{item.desc || "A vegetarian choice from the online menu listing."}</p><p className="mt-4 text-sm font-medium">₹{item.price}</p></article>)}</div>
+      <div className="cafe-container mt-7 grid gap-0 sm:grid-cols-2 lg:grid-cols-3">{featured.map((item, index) => <article key={item.name} className="border-t border-border p-4 sm:p-5"><p className="cafe-eyebrow">{["Coffee", "From the kitchen", "Something fresh"][index % 3]}</p><h3 className="cafe-serif mt-3 text-2xl">{item.name}</h3><p className="mt-3 text-sm text-muted-foreground">{item.desc || "A vegetarian choice from the online menu listing."}</p><p className="mt-4 text-sm font-medium">{item.price === null ? "Price not listed" : `₹${item.price}`}</p></article>)}</div>
     </section>
     <section className="cafe-container cafe-section grid items-center gap-10 md:grid-cols-[1fr_.85fr]">
       <div><SectionLabel>A little taste of the place</SectionLabel><h2 className="cafe-serif mt-5 text-5xl leading-tight md:text-6xl">Coffee, croissants<br />and a familiar seat.</h2><p className="mt-6 max-w-lg text-sm leading-7 text-muted-foreground">Four photographs are currently available from the café’s public listing. Browse the small collection.</p><Button asChild variant="link" className="mt-3 h-auto p-0"><Link to="/gallery">Open the gallery <SmallArrow /></Link></Button></div>
@@ -92,7 +92,7 @@ export function MenuPage() {
     "@context": "https://schema.org",
     "@type": "Menu",
     name: `${cafe.name} online menu listing`,
-    hasMenuSection: categories.map((category) => ({ "@type": "MenuSection", name: category.name, hasMenuItem: category.items.map((item) => ({ "@type": "MenuItem", name: item.name, description: item.desc || undefined, offers: { "@type": "Offer", price: item.price, priceCurrency: "INR" } })) })),
+    hasMenuSection: categories.map((category) => ({ "@type": "MenuSection", name: category.name, hasMenuItem: category.items.map((item) => ({ "@type": "MenuItem", name: item.name, description: item.desc || undefined, ...(item.price === null ? {} : { offers: { "@type": "Offer", price: item.price, priceCurrency: "INR" } }) })) })),
   };
   const filtered = useMemo(() => categories.map((category) => ({ ...category, items: category.items.filter((item) => (!vegOnly || item.veg) && `${item.name} ${item.desc} ${category.name}`.toLocaleLowerCase().includes(query.toLocaleLowerCase())) })).filter((category) => category.items.length > 0), [query, vegOnly]);
   useEffect(() => {
@@ -119,14 +119,14 @@ export function MenuPage() {
         <Button variant="outline" onClick={() => window.print()}><Utensils aria-hidden="true" /> Print menu</Button>
         <span className="w-full text-xs text-muted-foreground sm:w-auto">{filtered.reduce((total, category) => total + category.items.length, 0)} listed items</span>
       </div>
-      <nav className="no-print sticky top-16 z-20 -mx-4 flex gap-2 overflow-x-auto border-b border-border bg-background/95 px-4 py-3 backdrop-blur" aria-label="Menu categories">
-        {categories.map((category) => <Button key={category.id} variant="ghost" size="sm" aria-current={activeCategory === category.id ? "true" : undefined} className="cafe-category-link shrink-0 border-b-2 border-transparent text-muted-foreground" onClick={() => jumpTo(category.id)}>{category.name}</Button>)}
+      <nav className="no-print cafe-glass sticky top-16 z-20 -mx-4 flex gap-2 overflow-x-auto border-b border-border px-4 py-3" aria-label="Menu categories">
+        {filtered.map((category) => <Button key={category.id} variant="ghost" size="sm" aria-current={activeCategory === category.id ? "true" : undefined} className="cafe-category-link shrink-0 border-b-2 border-transparent text-muted-foreground" onClick={() => jumpTo(category.id)}>{category.name}<span className="ml-1 text-xs tabular-nums text-muted-foreground">{category.items.length}</span></Button>)}
       </nav>
-      {filtered.length === 0 ? <div className="py-20 text-center"><Search className="mx-auto size-8 text-muted-foreground" aria-hidden="true" /><h2 className="cafe-serif mt-4 text-3xl">Nothing found</h2><p className="mt-2 text-sm text-muted-foreground">Try a different search.</p></div> : <div className="divide-y divide-border">{filtered.map((category, categoryIndex) => <section id={category.id} data-menu-category={category.id} key={category.id} className="scroll-mt-32 py-10">
+      {filtered.length === 0 ? <div className="py-20 text-center"><Search className="mx-auto size-8 text-muted-foreground" aria-hidden="true" /><h2 className="cafe-serif mt-4 text-3xl">Nothing found</h2><p className="mt-2 text-sm text-muted-foreground">Try a different search.</p></div> : <div className="divide-y divide-border">{filtered.map((category, categoryIndex) => <section id={category.id} data-menu-category={category.id} key={category.id} className="cafe-reveal scroll-mt-32 py-10">
         <div className="mb-6 flex flex-wrap items-end justify-between gap-3"><div><p className="cafe-eyebrow">Section {String(categoryIndex + 1).padStart(2, "0")}</p><h2 className="cafe-serif mt-2 text-4xl md:text-5xl">{category.name}</h2></div><p className="max-w-sm text-right text-xs text-muted-foreground">{category.items.length} listed · {category.note}</p></div>
         <div className="grid gap-x-10 md:grid-cols-2">{category.items.map((item) => <article key={`${category.id}-${item.name}`} className="cafe-item py-4"><div className="flex items-start gap-3"><span className="mt-1.5 inline-flex size-3 shrink-0 items-center justify-center rounded-full border border-emerald-700" title="Listed as vegetarian"><span className="size-1.5 rounded-full bg-emerald-700" /></span><div className="min-w-0 flex-1"><div className="flex items-baseline justify-between gap-3"><h3 className="font-medium leading-6">{item.name}</h3><span className="shrink-0 text-sm tabular-nums">{item.price === null ? "Price not listed" : `₹${item.price}`}</span></div>{item.desc && <p className="mt-1 text-sm leading-6 text-muted-foreground">{item.desc}</p>}</div></div></article>)}</div>
       </section>)}</div>}
-      <p className="border-t border-border py-5 text-xs text-muted-foreground">Prices as shown in the Zomato online menu listing; they may change. All items are transcribed as vegetarian based on the listing’s “Vegetarian only” label. {allMenuItems.length} priced or described entries were extracted.</p>
+      <p className="border-t border-border py-5 text-xs text-muted-foreground">Prices are those shown in Zomato’s online ordering listing and may change or differ in the café. Items without a listed price are marked. The listing labels this menu “Vegetarian only”; this transcription may not include the complete in-café menu.</p>
     </section>
   </CafePage>;
 }
@@ -152,7 +152,7 @@ export function GalleryPage() {
     <PageIntro eyebrow="Four photos from the public listing" title="A glimpse inside." description="A small collection of photographs attributed to the café’s Zomato listing. The full Google Maps photo collection wasn’t available to verify." />
     <section className="cafe-container pb-16">
       <div className="mb-8 flex flex-wrap gap-2" aria-label="Gallery filters">{filters.map((item) => <Button key={item} size="sm" variant={filter === item ? "default" : "outline"} onClick={() => { setFilter(item); setSelected(null); }}>{item}</Button>)}</div>
-      <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">{visiblePhotos.map((photo, index) => <button key={photo.id} type="button" onClick={() => setSelected(index)} aria-label={`View ${photo.caption}`} className="cafe-image-frame cafe-focus mb-5 block w-full break-inside-avoid overflow-hidden text-left">
+      <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">{visiblePhotos.map((photo, index) => <button key={photo.id} type="button" onClick={() => setSelected(index)} aria-label={`View ${photo.caption}`} className="cafe-reveal cafe-image-frame cafe-focus mb-5 block w-full break-inside-avoid overflow-hidden text-left">
         <div className={index % 3 === 0 ? "aspect-[1.32/1]" : "aspect-[1/1]"}><CafeImage photo={photo} /></div><span className="block border-b border-border py-3"><span className="cafe-eyebrow">{photo.category}</span><span className="mt-1 block text-sm">{photo.caption}</span></span>
       </button>)}</div>
       <p className="mt-5 text-xs text-muted-foreground">More photos may be available on the <a className="cafe-link" href={cafe.photosUrl} target="_blank" rel="noreferrer">Zomato gallery <SmallArrow /></a>.</p>
@@ -171,7 +171,7 @@ export function AboutPage() {
   const counter = photoById("cafe-counter");
   const amenities = ["Indoor seating", "Outdoor seating", "Kid friendly", "Work friendly", "Books", "Artistic"];
   return <CafePage>
-    <PageIntro eyebrow="About the café" title="A table in Chandivali." description="À Votre Santé Café is listed at Nahar Optionz Shopping Plaza, opposite D Mart. This page sticks to public listing details; no café history was verified." />
+    <PageIntro eyebrow="About the café" title="A table in Mumbai." description="À Votre Santé Café is listed at Nahar Optionz Shopping Plaza, opposite D Mart. This page sticks to public listing details; no café history was verified." />
     <section className="cafe-container grid gap-10 pb-16 md:grid-cols-[1.1fr_.9fr] md:items-center">
       <figure className="cafe-image-frame relative aspect-[1.35/1] overflow-hidden"><CafeImage photo={hero} /><figcaption className="absolute bottom-4 left-4 bg-background/90 px-3 py-2 text-xs">Coffee and café plates</figcaption></figure>
       <div><SectionLabel>On the menu</SectionLabel><h2 className="cafe-serif mt-4 text-4xl md:text-5xl">Coffee, vegetarian plates, and something sweet.</h2><p className="mt-5 text-sm leading-7 text-muted-foreground">The public online listing includes coffee, tea, continental dishes, Chinese dishes, desserts and beverages. It describes the café as vegetarian-only; see the menu for listed item prices.</p><Button asChild variant="link" className="mt-3 h-auto p-0"><Link to="/menu">Browse the listed menu <SmallArrow /></Link></Button></div>
@@ -211,7 +211,7 @@ export function VisitPage() {
     window.open(`https://wa.me/917400221263?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
   };
   return <CafePage>
-    <PageIntro eyebrow="Find your way here" title="See you in Chandivali." description="À Votre Santé Café is at Nahar Optionz Shopping Plaza, opposite D Mart." />
+    <PageIntro eyebrow="Find your way here" title="See you soon." description="À Votre Santé Café is at Nahar Optionz Shopping Plaza, opposite D Mart." />
     <section className="cafe-container grid gap-12 pb-16 lg:grid-cols-[.85fr_1.15fr]">
       <div>
         <div className="flex items-center gap-3 border-y border-border py-4"><span className={`size-2.5 rounded-full ${open ? "bg-emerald-700" : open === false ? "bg-destructive" : "bg-muted-foreground"}`} aria-hidden="true" /><p className="font-medium">{open === null ? "Checking hours" : open ? "Reported open now" : "Reported closed now"}</p><span className="text-xs text-muted-foreground">Asia/Kolkata</span></div>
